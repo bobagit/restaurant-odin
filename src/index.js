@@ -4,7 +4,15 @@ import loadHome from './modules/home';
 import loadMenu from './modules/menu';
 import loadContact from './modules/contact';
 
-init();
+if (localStorage.getItem('currentPage') == 'menu') {
+  init();
+  loadMenu();
+} else if (localStorage.getItem('currentPage') == 'contact') {
+  init();
+  loadContact();
+} else {
+  init();
+}
 
 function loadNavigation() {
   const homeNav = document.getElementById('home')
