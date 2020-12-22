@@ -28,7 +28,7 @@ const menuItems = {
   side: {
     name: "Fries",
     price: 5.95,
-    ingredients: ['beef oil', 'mealworm', 'palm oil', 'hydrogenated translipid nonsoluloids', 'pig hoof for flavoring', 'potatoes', 'organic kosher sea salt'],
+    ingredients: ['beef oil', 'palm oil', 'hydrogenated translipid nonsoluloids', 'pig hoof for flavoring', 'potatoes', 'organic kosher sea salt'],
     calories: 140,
   }
 };
