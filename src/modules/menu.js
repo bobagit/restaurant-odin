@@ -16,19 +16,19 @@ const menuItems = {
   hotdog: {
     name: "Vinny's Famous Hot Dog",
     price: 2.25,
-    ingredients: ["salt", "nitrates", "onion powder", "orgainic chicken claw", "mealworm", "bun", "stabilizers", "artificial flavoring", "artificial coloring", "beetroot", "palm oil", "transfats", "aspertame", "stevia", "made with love"],
+    ingredients: ["salt", "nitrates", "onion powder", "organic chicken claw", "meal worm", "bun", "stabilizers", "artificial flavoring", "B12 coloring", "palm oil", "trans fats substitutes", "aspertame", "stevia", "love"],
     calories: 912,
   },
   drink: {
     name: "Coke",
-    price: 2.95,
+    price: 3.50,
     ingredients: ['carbonated water', 'high fructose corn syrup', 'caramel color', 'phosphoric acid', 'natural flavors', 'caffeine'],
     calories: 140,
   },
   side: {
     name: "Fries",
     price: 5.95,
-    ingredients: ['beef oil', 'mealworl', 'palm oil', 'hydrogenated translipid nonsoluloids', 'pig tendon for flavoring', 'potatoes', 'organic kosher sea salt'],
+    ingredients: ['beef oil', 'mealworm', 'palm oil', 'hydrogenated translipid nonsoluloids', 'pig hoof for flavoring', 'potatoes', 'organic kosher sea salt'],
     calories: 140,
   }
 };
