@@ -1,0 +1,121 @@
+@keyframes fadeIn
+  0% 
+    opacity: 0
+  100% 
+    opacity:1
+
+body
+  padding: 0
+  margin: 0
+  font-family: 'Montserrat', sans-serif
+#content
+  margin: 0
+  padding: 0
+  header
+    display: flex
+    align-items: center
+    justify-content: space-between
+    max-width: 960px
+    margin: 0 auto
+    padding: 2.2rem 1rem 1rem
+    h1
+      font-size: 1.4rem
+      font-family: 'Poiret One', cursive
+    nav
+      margin-left: 0
+      button
+        outline: none
+        border: none
+        background: none
+        font-size: 1rem
+        font-family: 'Montserrat', sans-serif
+        text-transform: uppercase
+        padding: 0.6rem 1.3rem
+        animation: fadeIn ease 0.6s
+        &:hover, &.active
+          background-color: rgb(154, 40, 32)
+          color: white	
+          transition: 0.3s
+
+  #main-content
+    max-width: 100%
+    padding: 0
+    margin: 0
+
+    .inner
+      display: grid
+      grid-template-columns: repeat(2, 1fr)
+      gap: 100px
+      padding: 15rem 2rem
+      color: #000
+      background: url('../img/hero.jpg') no-repeat center center
+      background-size: cover
+      animation: fadeIn ease 1s
+      h1
+        font-size: 2.4rem
+        font-family: 'Poiret One', cursive
+
+      h2
+        font-size: 2rem
+        font-family: 'Poiret One', cursive
+
+      p
+        font-size: 1rem
+        line-height: 2rem
+        text-align: center
+      .grid-item
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        border-radius: 4px
+        background: rgba(255, 255, 255, 0.65)
+        padding: 3rem
+    .menu
+      display: block
+      background: none
+      padding: 2rem
+      margin: 2rem
+      p, h2
+        text-align: left
+        &.price
+          font-size: 2rem
+    .contact
+      display: block
+      background: none
+      p
+        text-align: center
+  #footer
+    max-width: 960px
+    margin: 2rem auto
+    text-align: center
+    padding: 1rem
+
+@media (max-width: 900px)
+  #content
+    #main-content
+      .inner 
+        grid-template-columns: repeat(1, 1fr)
+
+
+@media (max-width: 550px)
+  #content
+    header
+      padding: 1rem
+      h1
+        font-size: 1rem
+      nav
+        margin-left: 0
+        button
+          border: none
+          background: none
+          font-family: 'Montserrat', sans-serif
+          font-size: 1rem
+          text-transform: uppercase
+          padding: 1rem 1rem
+    
+    #main-content
+      .inner 
+        grid-template-columns: repeat(1, 1fr)
+
+    
